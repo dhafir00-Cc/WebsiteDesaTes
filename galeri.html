@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeri Desa Suka Makmur</title>
+  <meta name="description" content="Galeri kegiatan Desa Suka Makmur dengan kategori kegiatan, pembangunan, UMKM, pertanian, dan budaya.">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="galeri">
+  <div class="page-transition"></div>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a class="brand" href="index.html">
+        <img src="assets/img/logo.png" alt="Logo Desa Suka Makmur">
+        <div>
+          <span class="brand-overline">Website Resmi</span>
+          <strong>Desa Suka Makmur</strong>
+        </div>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Navigasi utama">
+        <a href="index.html">Beranda</a>
+        <a href="profil.html">Profil</a>
+        <a href="pemerintahan.html">Pemerintahan</a>
+        <a href="layanan.html">Layanan</a>
+        <a href="berita.html">Berita</a>
+        <a href="galeri.html">Galeri</a>
+        <a href="potensi.html">Potensi</a>
+        <a href="kontak.html">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container" data-animate>
+        <span class="eyebrow">Galeri Desa</span>
+        <h1>Dokumentasi Visual Aktivitas dan Kemajuan Desa</h1>
+        <p>Galeri ini menampilkan berbagai momen kegiatan warga, pembangunan, UMKM, pertanian, serta pelestarian budaya Desa Suka Makmur.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="filter-group" aria-label="Filter kategori galeri" data-animate>
+          <button class="filter-btn active" type="button" data-gallery-filter="Semua">Semua</button>
+          <button class="filter-btn" type="button" data-gallery-filter="Kegiatan">Kegiatan</button>
+          <button class="filter-btn" type="button" data-gallery-filter="Pembangunan">Pembangunan</button>
+          <button class="filter-btn" type="button" data-gallery-filter="UMKM">UMKM</button>
+          <button class="filter-btn" type="button" data-gallery-filter="Pertanian">Pertanian</button>
+          <button class="filter-btn" type="button" data-gallery-filter="Budaya">Budaya</button>
+        </div>
+        <div class="masonry-grid">
+          <figure class="gallery-item" data-category="Kegiatan" data-animate>
+            <img src="assets/img/galeri-1.png" alt="Kegiatan gotong royong" data-gallery-image>
+            <figcaption>Gotong royong bersih lingkungan di Dusun Mekarsari.</figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="Pembangunan" data-animate>
+            <img src="assets/img/galeri-2.png" alt="Pembangunan jalan desa" data-gallery-image>
+            <figcaption>Peningkatan kualitas jalan lingkungan menuju area persawahan.</figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="UMKM" data-animate>
+            <img src="assets/img/galeri-3.png" alt="Produk UMKM desa" data-gallery-image>
+            <figcaption>Pameran produk unggulan UMKM pada acara pasar rakyat desa.</figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="Pertanian" data-animate>
+            <img src="assets/img/galeri-4.png" alt="Panen raya desa" data-gallery-image>
+            <figcaption>Kegiatan panen raya bersama kelompok tani Desa Suka Makmur.</figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="Budaya" data-animate>
+            <img src="assets/img/galeri-5.png" alt="Pertunjukan budaya desa" data-gallery-image>
+            <figcaption>Pentas seni budaya lokal pada perayaan hari jadi desa.</figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="Kegiatan" data-animate>
+            <img src="assets/img/galeri-6.png" alt="Musyawarah warga desa" data-gallery-image>
+            <figcaption>Forum musyawarah warga membahas agenda pembangunan dusun.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <div class="gallery-modal" aria-hidden="true">
+      <button class="gallery-modal-close" type="button" aria-label="Tutup preview">×</button>
+      <div class="gallery-modal-content">
+        <img src="" alt="" id="gallery-modal-image">
+        <p id="gallery-modal-caption"></p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="index.html">
+          <img src="assets/img/logo.png" alt="Logo Desa Suka Makmur">
+          <div>
+            <strong>Desa Suka Makmur</strong>
+            <span>Portal Resmi Pemerintah Desa</span>
+          </div>
+        </a>
+        <p>Galeri visual yang merekam partisipasi masyarakat, proses pembangunan, dan keberagaman aktivitas desa.</p>
+      </div>
+      <div>
+        <h3>Kategori</h3>
+        <ul>
+          <li>Kegiatan</li>
+          <li>Pembangunan</li>
+          <li>UMKM</li>
+          <li>Pertanian</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Jelajahi</h3>
+        <ul>
+          <li><a href="berita.html">Berita</a></li>
+          <li><a href="potensi.html">Potensi</a></li>
+          <li><a href="profil.html">Profil</a></li>
+          <li><a href="kontak.html">Kontak</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Kontak</h3>
+        <ul>
+          <li>desasukamakmur@desa.id</li>
+          <li>(021) 555-0198</li>
+          <li>Instagram: @desasukamakmur</li>
+          <li>Facebook: Desa Suka Makmur</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Pemerintah Desa Suka Makmur. Seluruh hak cipta dilindungi.</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" type="button" aria-label="Kembali ke atas">↑</button>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
+
+

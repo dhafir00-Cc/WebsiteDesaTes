@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Berita Desa Suka Makmur</title>
+  <meta name="description" content="Berita dan informasi terbaru dari Desa Suka Makmur dengan fitur pencarian dan filter kategori.">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="berita">
+  <div class="page-transition"></div>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a class="brand" href="index.html">
+        <img src="assets/img/logo.png" alt="Logo Desa Suka Makmur">
+        <div>
+          <span class="brand-overline">Website Resmi</span>
+          <strong>Desa Suka Makmur</strong>
+        </div>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Navigasi utama">
+        <a href="index.html">Beranda</a>
+        <a href="profil.html">Profil</a>
+        <a href="pemerintahan.html">Pemerintahan</a>
+        <a href="layanan.html">Layanan</a>
+        <a href="berita.html">Berita</a>
+        <a href="galeri.html">Galeri</a>
+        <a href="potensi.html">Potensi</a>
+        <a href="kontak.html">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container" data-animate>
+        <span class="eyebrow">Berita Desa</span>
+        <h1>Informasi Terkini dan Agenda Pembangunan</h1>
+        <p>Halaman berita desa menyajikan perkembangan kegiatan, kebijakan, pembangunan, pemberdayaan ekonomi, dan informasi warga secara aktual.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="news-toolbar" data-animate>
+          <label class="search-box">
+            <span>Cari berita</span>
+            <input id="news-search" type="search" placeholder="Cari judul atau kata kunci berita">
+          </label>
+          <div class="filter-group" aria-label="Filter kategori berita">
+            <button class="filter-btn active" type="button" data-filter="Semua">Semua</button>
+            <button class="filter-btn" type="button" data-filter="Pemerintahan">Pemerintahan</button>
+            <button class="filter-btn" type="button" data-filter="Pembangunan">Pembangunan</button>
+            <button class="filter-btn" type="button" data-filter="UMKM">UMKM</button>
+            <button class="filter-btn" type="button" data-filter="Pertanian">Pertanian</button>
+            <button class="filter-btn" type="button" data-filter="Kegiatan">Kegiatan</button>
+          </div>
+        </div>
+
+        <div class="card-grid three-col news-list">
+          <article class="news-card searchable-card" data-category="Pemerintahan" data-title="Musyawarah Desa Menetapkan Prioritas Pembangunan Semester II" data-animate>
+            <img src="assets/img/berita-1.png" alt="Musyawarah pembangunan desa">
+            <div class="news-card-body">
+              <span class="meta">28 April 2026 • Pemerintahan</span>
+              <h3>Musyawarah Desa Menetapkan Prioritas Pembangunan Semester II</h3>
+              <p>Pemerintah desa, BPD, dan tokoh masyarakat menyepakati program prioritas berupa penataan drainase lingkungan dan penguatan layanan digital desa.</p>
+            </div>
+          </article>
+          <article class="news-card searchable-card" data-category="UMKM" data-title="Pelatihan Branding UMKM Dorong Produk Lokal Lebih Kompetitif" data-animate>
+            <img src="assets/img/berita-2.png" alt="Pelatihan UMKM desa">
+            <div class="news-card-body">
+              <span class="meta">24 April 2026 • UMKM</span>
+              <h3>Pelatihan Branding UMKM Dorong Produk Lokal Lebih Kompetitif</h3>
+              <p>Pelaku UMKM desa mendapat materi kemasan produk, pemasaran digital, dan penguatan nilai jual untuk memperluas pasar regional.</p>
+            </div>
+          </article>
+          <article class="news-card searchable-card" data-category="Kegiatan" data-title="Gerakan Bersih Lingkungan Menjadi Agenda Rutin Setiap Dusun" data-animate>
+            <img src="assets/img/berita-3.png" alt="Kerja bakti desa">
+            <div class="news-card-body">
+              <span class="meta">20 April 2026 • Kegiatan</span>
+              <h3>Gerakan Bersih Lingkungan Menjadi Agenda Rutin Setiap Dusun</h3>
+              <p>Warga bersama pemuda desa melaksanakan kerja bakti untuk menjaga kebersihan jalan lingkungan, saluran air, dan ruang publik.</p>
+            </div>
+          </article>
+          <article class="news-card searchable-card" data-category="Pertanian" data-title="Demonstrasi Plot Padi Organik Tingkatkan Minat Petani Muda" data-animate>
+            <img src="assets/img/berita-4.png" alt="Pertanian organik">
+            <div class="news-card-body">
+              <span class="meta">17 April 2026 • Pertanian</span>
+              <h3>Demonstrasi Plot Padi Organik Tingkatkan Minat Petani Muda</h3>
+              <p>Kelompok tani memperkenalkan teknik budidaya organik yang efisien dan ramah lingkungan untuk meningkatkan produktivitas lahan.</p>
+            </div>
+          </article>
+          <article class="news-card searchable-card" data-category="Pembangunan" data-title="Perbaikan Jalan Dusun Mekarsari Capai Progres Delapan Puluh Persen" data-animate>
+            <img src="assets/img/berita-5.png" alt="Perbaikan jalan desa">
+            <div class="news-card-body">
+              <span class="meta">13 April 2026 • Pembangunan</span>
+              <h3>Perbaikan Jalan Dusun Mekarsari Capai Progres Delapan Puluh Persen</h3>
+              <p>Perbaikan akses jalan lingkungan diharapkan meningkatkan mobilitas warga, distribusi hasil tani, dan keselamatan pengguna jalan.</p>
+            </div>
+          </article>
+          <article class="news-card searchable-card" data-category="Pemerintahan" data-title="Layanan Administrasi Berbasis Website Mulai Diuji Coba Bertahap" data-animate>
+            <img src="assets/img/berita-6.png" alt="Digitalisasi layanan desa">
+            <div class="news-card-body">
+              <span class="meta">09 April 2026 • Pemerintahan</span>
+              <h3>Layanan Administrasi Berbasis Website Mulai Diuji Coba Bertahap</h3>
+              <p>Inisiatif digitalisasi ini memudahkan warga mengakses informasi layanan, memahami persyaratan, dan menyampaikan pengajuan awal secara daring.</p>
+            </div>
+          </article>
+        </div>
+        <p id="news-empty" class="empty-state" hidden>Tidak ada berita yang sesuai dengan pencarian atau kategori yang dipilih.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="index.html">
+          <img src="assets/img/logo.png" alt="Logo Desa Suka Makmur">
+          <div>
+            <strong>Desa Suka Makmur</strong>
+            <span>Portal Resmi Pemerintah Desa</span>
+          </div>
+        </a>
+        <p>Kanal resmi penyampaian informasi pembangunan, kegiatan masyarakat, dan agenda Desa Suka Makmur.</p>
+      </div>
+      <div>
+        <h3>Kategori</h3>
+        <ul>
+          <li>Pemerintahan</li>
+          <li>Pembangunan</li>
+          <li>UMKM</li>
+          <li>Pertanian</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Halaman</h3>
+        <ul>
+          <li><a href="galeri.html">Galeri</a></li>
+          <li><a href="potensi.html">Potensi</a></li>
+          <li><a href="layanan.html">Layanan</a></li>
+          <li><a href="kontak.html">Kontak</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Kontak</h3>
+        <ul>
+          <li>desasukamakmur@desa.id</li>
+          <li>(021) 555-0198</li>
+          <li>Jl. Raya Suka Makmur No. 10</li>
+          <li>@desasukamakmur</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Pemerintah Desa Suka Makmur. Seluruh hak cipta dilindungi.</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" type="button" aria-label="Kembali ke atas">↑</button>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
+
+

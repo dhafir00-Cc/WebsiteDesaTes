@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak Desa Suka Makmur</title>
+  <meta name="description" content="Informasi kontak, jam pelayanan, formulir kontak, peta, dan FAQ Desa Suka Makmur.">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="kontak">
+  <div class="page-transition"></div>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a class="brand" href="index.html">
+        <img src="assets/img/logo.png" alt="Logo Desa Suka Makmur">
+        <div>
+          <span class="brand-overline">Website Resmi</span>
+          <strong>Desa Suka Makmur</strong>
+        </div>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Navigasi utama">
+        <a href="index.html">Beranda</a>
+        <a href="profil.html">Profil</a>
+        <a href="pemerintahan.html">Pemerintahan</a>
+        <a href="layanan.html">Layanan</a>
+        <a href="berita.html">Berita</a>
+        <a href="galeri.html">Galeri</a>
+        <a href="potensi.html">Potensi</a>
+        <a href="kontak.html">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container" data-animate>
+        <span class="eyebrow">Kontak Desa</span>
+        <h1>Hubungi Kantor Desa Suka Makmur</h1>
+        <p>Kami terbuka untuk pelayanan administrasi, informasi publik, aspirasi masyarakat, dan kolaborasi pengembangan desa melalui kanal resmi berikut.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-layout">
+        <div class="contact-details" data-animate>
+          <div class="contact-card">
+            <h2>Informasi Kantor Desa</h2>
+            <ul class="info-list">
+              <li><strong>Alamat:</strong> Jl. Raya Suka Makmur No. 10, Kecamatan Sejahtera, Kabupaten Harmoni</li>
+              <li><strong>Jam Pelayanan:</strong> Senin - Jumat, 08.00 - 15.00 WIB</li>
+              <li><strong>Telepon:</strong> (021) 555-0198</li>
+              <li><strong>Email:</strong> desasukamakmur@desa.id</li>
+              <li><strong>Instagram:</strong> @desasukamakmur</li>
+              <li><strong>Facebook:</strong> Desa Suka Makmur</li>
+              <li><strong>YouTube:</strong> Desa Suka Makmur TV</li>
+            </ul>
+          </div>
+          <div class="contact-card map-frame">
+            <h2>Lokasi Kantor Desa</h2>
+            <img src="assets/img/map-placeholder.png" alt="Peta lokasi kantor desa">
+          </div>
+        </div>
+
+        <div class="form-shell" data-animate>
+          <h2>Formulir Kontak</h2>
+          <form class="validated-form" data-form-type="kontak" novalidate>
+            <div class="form-grid">
+              <label>
+                Nama Lengkap
+                <input type="text" name="nama" placeholder="Masukkan nama lengkap" required minlength="3">
+                <small class="error-message"></small>
+              </label>
+              <label>
+                Email
+                <input type="email" name="email" placeholder="nama@email.com" required>
+                <small class="error-message"></small>
+              </label>
+              <label>
+                Nomor Telepon
+                <input type="tel" name="telepon" placeholder="08xxxxxxxxxx" required pattern="^08[0-9]{8,11}$">
+                <small class="error-message"></small>
+              </label>
+              <label>
+                Subjek
+                <input type="text" name="subjek" placeholder="Masukkan subjek pesan" required minlength="5">
+                <small class="error-message"></small>
+              </label>
+              <label class="full-width">
+                Pesan
+                <textarea name="pesan" rows="5" placeholder="Tuliskan pesan, pertanyaan, atau aspirasi Anda" required minlength="15"></textarea>
+                <small class="error-message"></small>
+              </label>
+            </div>
+            <div class="form-actions">
+              <button class="btn btn-primary" type="submit">Kirim Pesan</button>
+              <p class="form-status" aria-live="polite"></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-heading" data-animate>
+          <span class="eyebrow">FAQ</span>
+          <h2>Pertanyaan yang Sering Diajukan</h2>
+        </div>
+        <div class="faq-list">
+          <article class="faq-item" data-animate>
+            <button class="faq-question" type="button">Bagaimana cara mengajukan surat keterangan secara online?</button>
+            <div class="faq-answer">
+              <p>Warga dapat membuka halaman layanan, memilih jenis layanan, mengisi formulir pengajuan, lalu menunggu konfirmasi petugas desa untuk verifikasi lanjutan.</p>
+            </div>
+          </article>
+          <article class="faq-item" data-animate>
+            <button class="faq-question" type="button">Apakah layanan administrasi dapat diwakilkan?</button>
+            <div class="faq-answer">
+              <p>Beberapa layanan dapat diwakilkan oleh anggota keluarga inti dengan membawa dokumen pendukung dan surat kuasa sederhana sesuai kebutuhan layanan.</p>
+            </div>
+          </article>
+          <article class="faq-item" data-animate>
+            <button class="faq-question" type="button">Kapan jadwal pelayanan kantor desa?</button>
+            <div class="faq-answer">
+              <p>Pelayanan kantor desa berlangsung setiap Senin sampai Jumat pukul 08.00 - 15.00 WIB, kecuali hari libur nasional dan cuti bersama.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="index.html">
+          <img src="assets/img/logo.png" alt="Logo Desa Suka Makmur">
+          <div>
+            <strong>Desa Suka Makmur</strong>
+            <span>Portal Resmi Pemerintah Desa</span>
+          </div>
+        </a>
+        <p>Kanal resmi untuk pelayanan informasi, aspirasi, dan komunikasi masyarakat dengan Pemerintah Desa Suka Makmur.</p>
+      </div>
+      <div>
+        <h3>Kontak</h3>
+        <ul>
+          <li>(021) 555-0198</li>
+          <li>desasukamakmur@desa.id</li>
+          <li>@desasukamakmur</li>
+          <li>Facebook: Desa Suka Makmur</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Halaman</h3>
+        <ul>
+          <li><a href="layanan.html">Layanan</a></li>
+          <li><a href="berita.html">Berita</a></li>
+          <li><a href="galeri.html">Galeri</a></li>
+          <li><a href="potensi.html">Potensi</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Alamat</h3>
+        <ul>
+          <li>Jl. Raya Suka Makmur No. 10</li>
+          <li>Kecamatan Sejahtera</li>
+          <li>Kabupaten Harmoni</li>
+          <li>08.00 - 15.00 WIB</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Pemerintah Desa Suka Makmur. Seluruh hak cipta dilindungi.</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" type="button" aria-label="Kembali ke atas">↑</button>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
+
+
